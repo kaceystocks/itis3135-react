@@ -1,0 +1,39 @@
+import './App.css'
+
+export default function Introduction() {
+    document.title += " | Introduction";
+    return (
+        <>
+        <main>
+        <h2>Introduction</h2>
+        <section>
+            <h3>Kacey A Stocks | Knowledgable Seal</h3>
+        <figure>
+            <img src="images/introductionpic.jpg" alt="me in swiss alps"/>
+            <figcaption>In Swiss Alps</figcaption>
+        </figure>
+        <p>I am currently a junior majoring in Computer Science with a concentration in Human-Computer Interaction. I have lived in Concord, North Carolina my whole life and I am a commuter. I am really excited to take this course.</p>
+        <ul>
+            <li><strong>Personal Background:</strong> I am from Concord, NC.</li>
+            <li><strong>Professional Background:</strong> I've been working at Great Wolf Lodge for ten months.</li>
+            <li><strong>Academic Background:</strong> I am a junior at UNC Charlotte, majoring in computer science.</li>
+            <li><strong>Primary Computer:</strong> MacBook Pro M2</li>
+            <li><strong>Courses I'm Taking & Why:</strong>
+                <ul>
+                    <li><strong>ITIS 3135 - Front-End Web App Development:</strong> I am taking this course to strengthen my skills in web design, as I already have some experience. </li>
+                    <li><strong>ITIS 3130 - Human-Centered Computing:</strong> I will hopefully learn the fundamentals of HCI, which I will use for the rest of my computer science career.</li>
+                    <li><strong>ITSC 3688 - Computers and Their Impact on Society:</strong> I am taking this course to deepen my understanding of how computers impact society.</li>
+                    <li><strong>ITIS 3200 - Intro to Info Security & Priv:</strong> This course relates to cybersecurity, which I am not interested in, but it is required. I can apply what I learn when I am hopefully working in UX Design.</li>
+                    <li><strong>PSYC 2302 - Intro to Positive Psychology:</strong> I am taking this course as an elective to learn more about psychology as it relates to my concentration and I am interested in the psychological aspect of digital design as well.</li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <p id="quote">"Wax on, wax off."</p>
+        <p id="author">- Mr. Miyagi</p>
+    </section>
+        </main>
+        
+        </>
+    );
+}
