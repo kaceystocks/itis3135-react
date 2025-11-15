@@ -9,7 +9,7 @@ export default function Introduction() {
         <section>
             <h3>Kacey A Stocks | Knowledgable Seal</h3>
         <figure>
-            <img src="images/introductionpic.jpg" alt="me in swiss alps"/>
+            <img src="./introductionpic.jpg" alt="me in swiss alps"/>
             <figcaption>In Swiss Alps</figcaption>
         </figure>
         <p>I am currently a junior majoring in Computer Science with a concentration in Human-Computer Interaction. I have lived in Concord, North Carolina my whole life and I am a commuter. I am really excited to take this course.</p>

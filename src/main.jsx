@@ -8,6 +8,7 @@ import Contract from './Contract.jsx'
 import Layout from './Layout.jsx'
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
