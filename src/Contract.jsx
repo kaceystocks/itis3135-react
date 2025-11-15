@@ -3,7 +3,7 @@ import './App.css'
 export default function Contract() {
     return (
         <>
-        <title>itis3135-react | Contract</title>
+        <title>Kacey Stocks Knowledgable Seal || ITIS3135 || Contract</title>
             <h2>Contract</h2>
         
             <section>

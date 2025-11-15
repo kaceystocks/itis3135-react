@@ -4,7 +4,7 @@ export default function Introduction() {
 
     return (
         <>
-        <title>itis3135-react | Introduction</title>
+        <title>Kacey Stocks Knowledgable Seal || ITIS3135 || Introduction</title>
         <main>
         <h2>Introduction</h2>
         <section>
