@@ -7,6 +7,7 @@ function App() {
   
   return (
     <>
+    <title>itis3135-react | Home</title>
       <h2>Home</h2>
       <p>This is Kacey Stocks' ITIS 3135 Course Page.</p>
       

@@ -1,9 +1,9 @@
 import './App.css'
 
 export default function Contract() {
-    document.title += " | Contract";
     return (
         <>
+        <title>itis3135-react | Contract</title>
             <h2>Contract</h2>
         
             <section>

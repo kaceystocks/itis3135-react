@@ -1,9 +1,10 @@
 import './App.css'
 
 export default function Introduction() {
-    document.title += " | Introduction";
+
     return (
         <>
+        <title>itis3135 | Introduction</title>
         <main>
         <h2>Introduction</h2>
         <section>
