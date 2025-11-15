@@ -4,7 +4,7 @@ export default function Introduction() {
 
     return (
         <>
-        <title>itis3135 | Introduction</title>
+        <title>itis3135-react | Introduction</title>
         <main>
         <h2>Introduction</h2>
         <section>
