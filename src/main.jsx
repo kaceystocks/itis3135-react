@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import Introduction from './Introduction.jsx'
 import Contract from './Contract.jsx'
 import Layout from './Layout.jsx'
+import Introductions from './Introductions.jsx'
 
 
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/' element={<App/>}></Route>
           <Route path='/introduction' element={<Introduction/>}></Route>
           <Route path='/contract' element={<Contract/>}></Route>
+          <Route path='/introductions' element={<Introductions/>}></Route>
         </Route>
 
       </Routes>
