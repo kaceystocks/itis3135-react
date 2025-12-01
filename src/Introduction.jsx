@@ -8,7 +8,7 @@ export default function Introduction() {
         <main>
         <h2>Introduction</h2>
         <section>
-            <h3>Kacey A Stocks | Knowledgable Seal</h3>
+            <h3>Kacey A Stocks || Knowledgable Seal</h3>
         <figure>
             <img src="/introductionpic.jpg" alt="me in swiss alps"/>
             <figcaption>In Swiss Alps</figcaption>
