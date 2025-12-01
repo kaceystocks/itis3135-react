@@ -25,9 +25,10 @@ export default function Introductions() {
     return(
     <>
         {introductions.map((data, index) => (<article key={index}>
+            <hr/>
             <h3>{data.name.first} {data.name.middleInitial ? `${data.name.middleInitial}.` : ""} {data.name.last} {data.divider} {data.mascot}</h3>
             <figure>
-                <img src={`https://dvonb.xyz${data.media.src}`} alt={data.media.caption}/>
+                <img src={`https://dvonb.xyz${data.media.src}`} width={400} alt={data.media.caption}/>
                 <figcaption>{data.media.caption}</figcaption>
             </figure>
             <p>{data.personalStatement}</p>
@@ -38,12 +39,12 @@ export default function Introductions() {
                 <li><strong>Primary Computer: </strong>{data.platform.device}, {data.platform.os}</li>
                 <li><strong>Courses I'm Taking & Why: </strong></li>
                     <ul>
-                        {data.courses.map((course, coruseIndex) => {
-
-                        })}
+                        {data.courses.map((course, courseIndex) => {
                         <li key={courseIndex}>
                             <strong>{course.code} {course.name} :</strong> {course.reason}
                         </li>
+                        })}
+                        
                     </ul>
                     <li><strong>Funny/Interesting Item to Remember Me By: </strong> {data.funFact}</li>
                     <li><strong>Addintional: </strong>{data.additional ? `${data.additional}` : ""}</li>
