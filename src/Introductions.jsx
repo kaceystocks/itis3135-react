@@ -20,7 +20,7 @@ export default function Introductions() {
         }, []);
 
         if(error) return <p>Error: {error}</p>
-        if(introductions) return <p>Loading...</p>
+        if(!introductions) return <p>Loading...</p>
 
     return(
     <>
