@@ -12,7 +12,7 @@ import Introductions from './Introductions.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route path='/' element={<App/>}></Route>
@@ -22,6 +22,6 @@ createRoot(document.getElementById('root')).render(
         </Route>
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
