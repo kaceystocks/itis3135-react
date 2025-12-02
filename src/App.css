@@ -233,6 +233,11 @@ button:hover{
   background-color: rgb(160, 241, 160);
 }
 
-article{
+article a{
+  text-decoration: none;
   
+}
+
+article p{
+  text-decoration: none;
 }

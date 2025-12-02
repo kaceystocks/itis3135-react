@@ -37,21 +37,22 @@ export default function Introductions() {
                 <li><strong>Professional Background: </strong>{data.backgrounds.professional}</li>
                 <li><strong>Academic Background: </strong>{data.backgrounds.academic}</li>
                 <li><strong>Primary Computer: </strong>{data.platform.device}, {data.platform.os}</li>
-                <li><strong>Courses I'm Taking & Why: </strong></li>
+                <li><strong>Courses I'm Taking & Why: </strong>
                     <ul>
-                        {data.courses.map((course, courseIndex) => {
+                        {data.courses.map((course, courseIndex) => (
                         <li key={courseIndex}>
-                            <strong>{course.code} {course.name} :</strong> {course.reason}
+                            <strong>{course.dept} {course.num} - {course.name}:</strong> {course.reason}
                         </li>
-                        })}
+                        ))}
                         
                     </ul>
+                </li>
                     <li><strong>Funny/Interesting Item to Remember Me By: </strong> {data.funFact}</li>
                     <li><strong>Addintional: </strong>{data.additional ? `${data.additional}` : ""}</li>
             </ul>
             
-            <p>"{data.quote.text}"</p>
-            <p>{data.quote.author}</p>
+            <p id="quote">{data.quote.text}</p>
+            <p id="quote">{data.quote.author}</p>
             <p>
             <a href={data.links.charlotte} target="_blank" rel="noopener noreferrer">CLT Web</a> {data.divider}{" "}
             <a href={data.links.github} target="_blank" rel="noopener noreferrer">GitHub</a> {data.divider}{" "}
@@ -59,7 +60,7 @@ export default function Introductions() {
             <a href={data.links.itis3135} target="_blank" rel="noopener noreferrer">ITIS3135</a> {data.divider}{" "}
             <a href={data.links.freecodecamp} target="_blank" rel="noopener noreferrer">freeCodeCamp</a> {data.divider}{" "}
             <a href={data.links.codecademy} target="_blank" rel="noopener noreferrer">Codecademy</a> {data.divider}{" "}
-            <a href={data.links.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a> {data.divider}{" "}
+            <a href={data.links.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a> 
             </p>
         </article>) )}
         
