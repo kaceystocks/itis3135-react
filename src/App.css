@@ -109,7 +109,7 @@ a{
   color: #700A36;
 }
 
-p a:nth-child(1){
+footer p a:nth-child(1){
   text-decoration: underline;
 }
 
@@ -131,21 +131,24 @@ footer{
 footer p{
   text-align: center;
   color: #D6FCFF;
+  
 
   
 }
 footer p a {
   color: #FBC6D8;
-  text-decoration: none;
+  
 }
 
 footer nav a{
   color: #FBC6D8;
+  
 }
 
 footer nav{
   text-align: center;
   color: #D6FCFF;
+
 }
 
 table{
