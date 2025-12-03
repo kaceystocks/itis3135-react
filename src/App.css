@@ -131,10 +131,12 @@ footer{
 footer p{
   text-align: center;
   color: #D6FCFF;
+
   
 }
 footer p a {
   color: #FBC6D8;
+  text-decoration: none;
 }
 
 footer nav a{
