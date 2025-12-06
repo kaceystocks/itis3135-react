@@ -1,4 +1,4 @@
-/*export default function StudentIntroduction({studentData, displayName, displayMascot, displayImage}){
+export default function StudentIntroduction({studentData, displayName, displayMascot, displayImage}){
     return <article>
                     <h3>
                         {
@@ -56,4 +56,4 @@
                     <a href={studentData.links.charlotte}>CLT Web</a> <a href={studentData.links.github}>GitHub Profile</a> <a href="">GitHub Pages</a>
                     <hr />
                 </article>
-}*/
+}
